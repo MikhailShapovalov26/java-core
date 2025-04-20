@@ -22,7 +22,7 @@ public class CSVMain{
 
     }
 
-    private static List<Employee> parseCSV(String[] columnMapping, String fileName) {
+    public static List<Employee> parseCSV(String[] columnMapping, String fileName) {
         try(CSVReader csvReader = new CSVReader(
                 new FileReader(fileName)))
         {
