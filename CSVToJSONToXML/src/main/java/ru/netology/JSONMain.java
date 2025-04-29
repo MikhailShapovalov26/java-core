@@ -29,9 +29,8 @@ public class JSONMain {
         Gson gson = new Gson();
 
         Type employeeListType = new TypeToken<List<Employee>>(){}.getType();
-        List<Employee> employees = gson.fromJson(json, employeeListType);
 
-        return employees;
+        return gson.fromJson(json, employeeListType);
     }
 
     private static String readString(String fileJson) {

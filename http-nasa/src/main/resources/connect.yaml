@@ -1,0 +1,4 @@
+connect:
+    url: "https://api.nasa.gov/planetary/apod?api_key="
+    api_key: "D28rzTPaqXcy8uK4NWIuLFO1YecPKcqYjyWWOMk6"
+    high_quality: "false"
